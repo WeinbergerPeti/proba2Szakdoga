@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('proba', function (Blueprint $table) {
             $table->id();
+            $table->string();
             $table->timestamps();
         });
     }
